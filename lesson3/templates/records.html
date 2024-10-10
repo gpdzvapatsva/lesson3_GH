@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+         {% load static %}
+<link rel="stylesheet" href="{% static 'styles/index.css' %}">
 </head>
 <body>
+<ul>
+  <li><a href="http://127.0.0.1:8000/index">Home</a></li>
+  <li><a href="http://127.0.0.1:8000/records">Records</a></li>
+  <li><a href="http://127.0.0.1:8000/contact">Contact</a></li>
+</ul>
 <h1> UoS Records</h1>
 </body>
 </html>
