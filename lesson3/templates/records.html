@@ -13,5 +13,10 @@
   <li><a href="http://127.0.0.1:8000/contact">Contact</a></li>
 </ul>
 <h1> UoS Records</h1>
+<ol>
+    {% for students in students %}
+<li>{{students}}</li>
+    {% endfor %}
+</ol>
 </body>
 </html>
